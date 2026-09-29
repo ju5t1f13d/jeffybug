@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jeffybug</title>
+    
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        background: #000000;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.img {
+    animation: move 5s ease-in-out infinite;
+    transform-origin: center center;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(100vw) scale(1);
+    }
+    35% {
+        transform: translateX(0vw) scale(1);
+    }
+    60% {
+        transform: translateX(0vw) scale(1);
+    }
+    100% {
+        transform: translateX(0vw) scale(10);
+    }
+}
+
+</style>
+</head>
+
+<div class="img">
+    <img src="c:\Users\enxse\Downloads\JEFFYBUG.jpg" width="200px" height="100px">
+</div>
+</html>
